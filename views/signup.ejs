@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="/css/signup.css">
+<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<div class="signup_main bg-danger">
+    <div class="signup_text">
+       sign up<br>
+       Form
+    </div>
+    <div class="signup_form">
+        <form action="/adduser" method="post">
+            <input type="text" placeholder="Email" name="email" required>
+            <input type="text" placeholder="Password" name="password" required>
+            <input type="text" placeholder="Name" name="name" required>
+            <select name="gender" id="cars">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Others</option>
+              </select>
+            <input type="submit" id="submit_button" value="submit">
+        </form>
+    </div>
+</div>
+

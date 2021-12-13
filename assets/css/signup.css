@@ -1,0 +1,43 @@
+.signup_main{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 65vh;
+    
+    display: flex;
+    padding: 2%;
+}
+.signup_form{
+    width: 50%;
+    height: 100%;
+    margin:0.5%;
+    
+}
+.signup_text{
+    width: 50%;
+    height: 100%;
+    font-size: 8rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:0.5%;
+    color: black;
+}
+input,select{
+    text-align: center;
+    display: block;
+    margin: 10%;
+    height: 5%;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    font-size: 1.3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#submit_button{
+    width:50%;
+    margin-left: 35%;
+    height: 12%;
+    font-size: 1rem;
+
+}

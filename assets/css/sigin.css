@@ -1,0 +1,32 @@
+.signin_form
+{
+    margin-top:5%;
+    color: green;
+    height: 60vh;
+    width: 90vh;
+    margin-left:18%;
+    border-style: outset;
+}
+#signin_email{
+    justify-content: center;
+    margin-top: 15%;
+}
+input{
+    display: block;
+    margin-top: 5%;
+    margin-left: 30%;
+    font-size: 1.5rem;
+    height:25%;
+    width:40%
+}
+.notsignin{
+    margin-top: 5%;
+}
+#notsign{
+    margin-top:30%;
+    font-size: 1.3rem;
+    color: blue;
+}
+h3{
+    font-size: 2rem;
+}
