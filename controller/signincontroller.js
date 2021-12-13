@@ -2,6 +2,7 @@
 const User = require('../model/usermodel')
 
 module.exports.sigin = function(req,res){
+    console.log(req.cookies)
     return res.render('signin')
     
 }
